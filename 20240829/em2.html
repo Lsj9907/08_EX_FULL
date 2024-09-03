@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>em2</title>
+    <style>
+        body{
+            font-weight: bold;
+            /* font-size: 22px; */
+        }
+        .container{
+            background-color: #ff8a8a;
+            /* width: 500px; height: 400px; */
+            width: 31.25em; height: 25em;
+            /* margin: 30px auto; */
+            margin: 1.875em auto;
+        }
+        .container .box1_wrapper {
+            /* font-size: 22px; */
+            font-size: 1.375em; /* 부모인 container에 font-size가 없기 때문에 body의 font-size를 기준*/
+            border: 1px solid #000;
+            /* margin: 20px; */
+            margin: 1.25em; /* 부모의 font-size 기준*/
+        }
+        .container .box1_wrapper p{
+            background-color: #d5ed9f;
+            /* margin: 20px; */
+            margin: 0.9em; /* .box1_wrapper에 font-size가 있기 때문에 기준*/
+        }
+        .container .box2_wrapper{
+            border: 1px solid #000;
+            /* margin : 20px; */
+            margin: 1.25em;/* .box2_wrapper와 .contaiver에 font-size가 없기에 body의 font-size를 기준 */
+        }
+        .container .box2_wrapper p {
+            background-color: #f9e400;
+            /* margin: 20px */
+            margin: 1.25em;
+        }
+    </style>
+</head>
+<body>
+    <h1>em 단위</h1>
+    <ul>
+        <li>나를 감싸고 있는 <strong>부모 요소의 font-size</strong>를 기준으로 계산</li>
+    </ul>
+
+    <div class="container">
+        .container
+        <div class="box1_wrapper">
+            box1
+           <p>box1+p</p>
+        </div>
+        <div class="box2_wrapper">
+            box2
+            <p>box2_p</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body{
+    background-color:rgb(203, 255, 238);
+}
+
+h2{
+    background-color: aliceblue;
+}
+
+#title1{
+    color: plum;
+}
+#title2{
+    color: burlywood;
+}
+#title3{
+    color: blueviolet;
+}
+#title4{
+    color: crimson;
+}

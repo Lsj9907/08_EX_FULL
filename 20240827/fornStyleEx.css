@@ -1,0 +1,49 @@
+@charset "(utf-8)";
+
+body{
+    font-family: '나눔고딕','맑은 고딕',돋움,sans-serif;
+    font-size: 25px;
+    padding: 50px;
+}
+form{
+    padding: 50px;
+    width: 600px;
+    max-width: 600px;
+    min-width: 600px;
+    background-color: #F6EACB;
+}
+fieldset{
+    background-color: #fff;
+    border: 5px solid #667BC6;
+    border-radius: 20px;
+    padding: 40px;
+    text-align:right;
+}
+legend{
+    background-color: #667BC6;
+    color: #fff;
+    text-align: left;
+    padding-right: 50px;
+}
+input{
+    background-color: #fff;
+    border: #fff 5px solid;
+    border-bottom: 5px solid #FFB4C2;
+    padding-top: 20px;
+    padding-right: 200px;
+}
+button{
+    background-color: #667BC6;
+    color: #fff;
+    width: 80px; height: 40px;
+    border: #667BC6 4px solid;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+input:hover{
+    border: #667BC6 solid 5px;
+}
+#userName:hover{
+    background-color: #667BC6;
+}
